@@ -114,6 +114,6 @@ public class MainActivity extends AppCompatActivity {
                 Uri.parse("android-app://com.example.goodperson.garometer1/http/host/path")
         );
         AppIndex.AppIndexApi.end(client, viewAction);
-        client.disconnect();
+        client.disconnect(); 
     }
 }
